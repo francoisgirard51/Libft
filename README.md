@@ -1,4 +1,4 @@
-# Libft
+# Library of C functions
 The aim of this project is to code a library in C language regrouping usual functions used in other projects.
 
 Here is the list of the full library:
