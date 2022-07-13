@@ -2,9 +2,9 @@
 The aim of this project is to code a C library regrouping usual functions used in other projects.
 
 Here is the list of the full library:
-- ~~atoi
+- ~~atoi~~
 - bzero
-- ~~calloc
+- ~~calloc~~
 - isalnum
 - isalpha
 - isascii
