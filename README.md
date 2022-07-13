@@ -5,8 +5,8 @@ Here is the list of the full library _(to note, functions are progressively adde
 - ~~atoi~~
 - ~~bzero~~
 - ~~calloc~~
-- isalnum
-- isalpha
+- **isalnum**
+- **isalpha**
 - ~~isascii~~
 - ~~isdigit~~
 - ~~isprint~~
@@ -25,8 +25,8 @@ Here is the list of the full library _(to note, functions are progressively adde
 - ~~memcpy~~
 - ~~memmove~~
 - ~~memset~~
-- putchar_fd
-- putendl_fd
+- **putchar_fd**
+- **putendl_fd**
 - ~~putnbr_fd~~
 - ~~putstr_fd~~
 - ~~split~~
@@ -42,5 +42,5 @@ Here is the list of the full library _(to note, functions are progressively adde
 - ~~strrchr~~
 - ~~strtrim~~
 - ~~substr~~
-- tolower
-- toupper
+- **tolower**
+- **toupper**
