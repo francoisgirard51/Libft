@@ -1,7 +1,10 @@
 # libft
 The aim of this project is to code a library in C language regrouping usual functions used in other projects.
 
-Here is the list of the full library _<sub>(to note, functions are progressively added in the coming weeks)</sub>_:
+Here is the list of the full library:
+
+_<sub>(to note, functions are progressively added in the coming weeks)</sub>_
+
 - ~~atoi~~
 - ~~bzero~~
 - ~~calloc~~
