@@ -3,7 +3,7 @@ Librairie :           Non-standard
 Role de la fonction : sort un caractère dans un fichier donné
 Commentaires :        ecrit le caractère 'c' sur le descripteur de fichier fd
 Parametres :          1) c : caractère à écrire
-					  2) fd : descripteur de fichier
+		      2) fd : descripteur de fichier
 Retourne :            N/A
 ---------------------------------------------------------------------------- */
 
