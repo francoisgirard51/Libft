@@ -27,8 +27,8 @@ Here is the list of the full library _(to note, functions are progressively adde
 - ~~memset~~
 - putchar_fd
 - putendl_fd
-- ~~putnbr_fd
-- ~~putstr_fd
+- ~~putnbr_fd~~
+- ~~putstr_fd~~
 - ~~split~~
 - ~~strchr~~
 - ~~strdup~~
