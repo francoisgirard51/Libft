@@ -3,7 +3,7 @@ The aim of this project is to code a library in C language regrouping usual func
 
 >_to note, functions are progressively added in the coming week_
 
-- ~~atoi~~
+- `ft_atoi`: _(ASCII TO Integer)_ Convert the string argument `str` to integer (`int` type) and return it
 - ~~bzero~~
 - ~~calloc~~
 - **isalnum**
