@@ -1,8 +1,7 @@
 # Library of C functions
-The aim of this project is to code a library in C language regrouping usual functions used in other projects.
+The aim of this project is to code a library in C language regrouping usual functions used in other projects. Here is the list of the full library:
 
-Here is the list of the full library:
-_<sub>(to note, functions are progressively added in the coming weeks)</sub>_
+>_to note, functions are progressively added in the coming week_
 
 - ~~atoi~~
 - ~~bzero~~
