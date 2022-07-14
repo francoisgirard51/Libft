@@ -3,11 +3,11 @@ The aim of this project is to code a library in C language regrouping usual func
 
 >_to note, functions are progressively added in the coming week_
 
-- `ft_atoi`: _(ASCII TO Integer)_ Convert the string argument `str` to integer (`int` type) and return it
+- `ft_atoi`: _ASCII TO Integer_, convert the string argument `str` to integer (`int` type) and return it.
 - ~~bzero~~
 - ~~calloc~~
-- **isalnum**
-- **isalpha**
+- `isalnum`:
+- `isalpha`:
 - ~~isascii~~
 - ~~isdigit~~
 - ~~isprint~~
@@ -26,8 +26,8 @@ The aim of this project is to code a library in C language regrouping usual func
 - ~~memcpy~~
 - ~~memmove~~
 - ~~memset~~
-- **putchar_fd**
-- **putendl_fd**
+- `ft_putchar_fd`:
+- `ft_putendl_fd`:
 - ~~putnbr_fd~~
 - ~~putstr_fd~~
 - ~~split~~
@@ -43,5 +43,5 @@ The aim of this project is to code a library in C language regrouping usual func
 - ~~strrchr~~
 - ~~strtrim~~
 - ~~substr~~
-- **tolower**
-- **toupper**
+- `ft_tolower`:
+- `ft_toupper`:
