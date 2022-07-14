@@ -6,8 +6,8 @@ The aim of this project is to code a library in C language regrouping usual func
 - `ft_atoi`: _ASCII TO Integer_, convert the string argument `str` to integer (`int` type) and return it.
 - ~~bzero~~
 - ~~calloc~~
-- `isalnum`:
-- `isalpha`:
+- `ft_isalnum`: _Is Alphanumeric_, check if the character is alphanumeric and return `1`, if not return `0`.
+- `ft_isalpha`: _Is Alphabetic_, check if the character is alphabetic and return `1`, if not return `0`.
 - ~~isascii~~
 - ~~isdigit~~
 - ~~isprint~~
@@ -26,8 +26,8 @@ The aim of this project is to code a library in C language regrouping usual func
 - ~~memcpy~~
 - ~~memmove~~
 - ~~memset~~
-- `ft_putchar_fd`:
-- `ft_putendl_fd`:
+- `ft_putchar_fd`: write the character `c` on the file descriptor `fd`.
+- `ft_putendl_fd`: write the string `s` to the file descriptor `fd` and a new line.
 - ~~putnbr_fd~~
 - ~~putstr_fd~~
 - ~~split~~
@@ -43,5 +43,5 @@ The aim of this project is to code a library in C language regrouping usual func
 - ~~strrchr~~
 - ~~strtrim~~
 - ~~substr~~
-- `ft_tolower`:
-- `ft_toupper`:
+- `ft_tolower`: if the character passed in argument is a capital letter, convert it to lowercase.
+- `ft_toupper`: if the character passed in argument is a lowercase letter, convert it to uppercase.
