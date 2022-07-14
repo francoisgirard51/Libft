@@ -11,7 +11,7 @@ The aim of this project is to code a library in C language regrouping usual func
 - ~~isascii~~
 - ~~isdigit~~
 - ~~isprint~~
-- ~~itoa~~
+- `ft_itoa`: _Integer TO ASCII_, convert an integer to a string of characters.
 - ~~lstadd_back~~
 - ~~lstadd_front~~
 - ~~lstclear~~
