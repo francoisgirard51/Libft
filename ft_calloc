@@ -1,0 +1,28 @@
+/* ------------------------------ INFORMATIONS ------------------------------
+Librairie :           <stdlib.h>
+Role de la fonction : allocation de mémoire
+Commentaires :        Alloue suffisamment d'espace pour compter les objets de
+                      taille octets de mémoire chacun et renvoie un pointeur
+					            vers la mémoire allouée. La mémoire allouée est remplie
+					            d'octets de valeur zéro
+Parametres :          1) le nombre d'objets à allouer
+					            2) la taille des objets
+Retourne :            un pointeur vers la mémoire allouée ou NULL en cas
+                      d'erreur
+---------------------------------------------------------------------------- */
+
+#include "libft.h"
+#include <stdlib.h>
+
+void	*ft_calloc(size_t count, size_t size)
+{
+	void	*ptr;
+	size_t	total;
+
+	total = count * size;
+	ptr = malloc(total);
+	if (ptr == NULL)
+		return (NULL);
+	ft_bzero(ptr, total);
+	return (ptr);
+}
