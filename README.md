@@ -4,11 +4,11 @@ The aim of this project is to code a library in C language regrouping usual func
 >_to note, functions are progressively added in the coming week_
 
 - `ft_atoi`: _ASCII TO Integer_, convert the string argument `str` to integer (`int` type) and return it.
-- bzero : 
-- calloc :
+- `bzero` : 
+- `calloc` :
 - `ft_isalnum`: _Is Alphanumeric_, check if the character is alphanumeric and return `1`, if not return `0`.
 - `ft_isalpha`: _Is Alphabetic_, check if the character is alphabetic and return `1`, if not return `0`.
-- isascii :
+- `isascii` :
 - ~~isdigit~~
 - ~~isprint~~
 - `ft_itoa`: _Integer TO ASCII_, convert an integer to a string of characters.
