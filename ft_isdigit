@@ -1,0 +1,16 @@
+/* ------------------------------ INFORMATIONS ------------------------------
+Librairie :          <ctype.h>
+Role de la fonction: test des caractères décimaux.
+Commentaires :       Vérifier un chiffre (0 à 9)
+Parametres :         1) c : un caractère à tester
+Retourne :           1 si le caractère est un chiffre, 0 sinon
+---------------------------------------------------------------------------- */
+
+#include "libft.h"
+
+int	ft_isdigit(int c)
+{
+	if ((c < '0') || (c > '9'))
+		return (0);
+	return (1);
+}
