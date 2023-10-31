@@ -1,0 +1,23 @@
+/* ------------------------------ INFORMATIONS ------------------------------
+Librairie :           <strings.h>
+Role de la fonction : écrit des zéros dans une chaîne d'octets
+Commentaires :        efface les donnees dans les "n" octets de la memoire
+                      en commencant a l'emplacement pointe par "s" en
+					            ecrivant des zeros
+Parametres :          1) s : un pointeur vers la memoire a ecrire
+					            2) n : le nombre d'octets a ecrire
+Retourne :            N/A
+---------------------------------------------------------------------------- */
+
+#include "libft.h"
+
+void    ft_bzero(void *s, size_t n)
+{
+    char *str;
+
+    str = (char *)s;
+    while (n--)
+    {
+        *str++ = 0;
+    }
+}
